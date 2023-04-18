@@ -5,3 +5,4 @@ Runtime Environment
 Java Virtual Machine
 Virtual Machine
 False
+JAVA_HOME
