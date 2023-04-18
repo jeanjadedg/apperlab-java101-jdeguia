@@ -1,0 +1,19 @@
+Java Development Kit
+Programming Language
+Standard Library
+Runtime Environment
+Java Virtual Machine
+Runtime Environment
+False
+JAVA_HOME
+
+class jeanjade {
+
+	public static void main(Strings[] args) {
+		System.out.println("Jean Jade De Guia");
+	}
+	
+}
+
+something something yellow :D
+
