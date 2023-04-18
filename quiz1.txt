@@ -2,3 +2,4 @@ Java Development Kit
 Programming Language
 Standard Library
 Runtime Environment
+Java Virtual Machine
