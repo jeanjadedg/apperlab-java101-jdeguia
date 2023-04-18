@@ -3,7 +3,7 @@ Programming Language
 Standard Library
 Runtime Environment
 Java Virtual Machine
-Virtual Machine
+Runtime Environment
 False
 JAVA_HOME
 
@@ -14,4 +14,6 @@ class jeanjade {
 	}
 	
 }
+
+
 
