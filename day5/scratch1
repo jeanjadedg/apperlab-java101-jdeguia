@@ -1,0 +1,19 @@
+public class App {
+
+	public static void main(String[] args) {
+		Map<String, String> cars = new Hashmap<>();
+		cars.put("c1", "Innova");
+		cars.put("c2", "FJ Cruiser");
+		cars.put("c3", "Expander");
+		cars.put("c3", "Raptor");
+		cars.put("c4", "Vios");
+		cars.put("c5", "Tesla");
+		cars.put("c6", "Tesla");
+
+		System.out.println(cars.get("c4"));
+		System.out.println(cars.size("c4"));
+		System.out.println(cars.keySet("c4"));
+		System.out.println(cars.containsKey("c4"));
+		System.out.println(cars.containsValue("c4"));
+	}
+}
