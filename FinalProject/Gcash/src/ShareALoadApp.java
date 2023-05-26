@@ -72,14 +72,17 @@ class shareALoadApp {
             System.out.println(number + " is already registered. Goodbye!");
             unregistered = false;
         } else {
+            Scanner s = new Scanner(System.in);
             System.out.println();
             System.out.print("Please enter you name: ");
-            String userName = scanner.next();
-                if (userName.length() == 0) {
-                    System.out.println("Name must not be empty. Goodbye!");
-                } else {
-                    userOfTheApp.put(number, new User(userName));
-                }
+            String userName = s.nextLine();
+            if (userName.length() == 0) {
+                System.out.println("Name must not be empty. Goodbye!");
+                unregistered = false;
+            } else {
+                userOfTheApp.put(number, new User(userName));
+            }
+            s.close();
         }
         return unregistered;
     }
